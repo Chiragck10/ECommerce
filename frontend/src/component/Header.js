@@ -75,7 +75,7 @@ const Header = () => {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             to="/contact"
             style={{
               transition: "all 0.3s",
@@ -86,7 +86,7 @@ const Header = () => {
             className="hover:underline hover:scale-110 hover:text-gray-800"
           >
             Contact
-          </Link>
+          </Link> */}
         </nav>
         <Link to="/cart" className="text-3xl text-slate-600 relative">
           <BsCartFill />
